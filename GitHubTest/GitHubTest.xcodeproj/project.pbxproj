@@ -15,6 +15,8 @@
 		27F31FD61F305853005F3C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F31FD41F305853005F3C20 /* LaunchScreen.storyboard */; };
 		27F31FE11F305854005F3C20 /* GitHubTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F31FE01F305854005F3C20 /* GitHubTestTests.m */; };
 		27F31FEC1F305854005F3C20 /* GitHubTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F31FEB1F305854005F3C20 /* GitHubTestUITests.m */; };
+		27F31FFC1F30613B005F3C20 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F31FFA1F30613B005F3C20 /* SecViewController.m */; };
+		27F31FFD1F30613B005F3C20 /* SecViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F31FFB1F30613B005F3C20 /* SecViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		27F31FE71F305854005F3C20 /* GitHubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F31FEB1F305854005F3C20 /* GitHubTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubTestUITests.m; sourceTree = "<group>"; };
 		27F31FED1F305854005F3C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F31FF91F30613B005F3C20 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		27F31FFA1F30613B005F3C20 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		27F31FFB1F30613B005F3C20 /* SecViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				27F31FCA1F305853005F3C20 /* AppDelegate.m */,
 				27F31FCC1F305853005F3C20 /* ViewController.h */,
 				27F31FCD1F305853005F3C20 /* ViewController.m */,
+				27F31FF91F30613B005F3C20 /* SecViewController.h */,
+				27F31FFA1F30613B005F3C20 /* SecViewController.m */,
+				27F31FFB1F30613B005F3C20 /* SecViewController.xib */,
 				27F31FCF1F305853005F3C20 /* Main.storyboard */,
 				27F31FD21F305853005F3C20 /* Assets.xcassets */,
 				27F31FD41F305853005F3C20 /* LaunchScreen.storyboard */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F31FFD1F30613B005F3C20 /* SecViewController.xib in Resources */,
 				27F31FD61F305853005F3C20 /* LaunchScreen.storyboard in Resources */,
 				27F31FD31F305853005F3C20 /* Assets.xcassets in Resources */,
 				27F31FD11F305853005F3C20 /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F31FFC1F30613B005F3C20 /* SecViewController.m in Sources */,
 				27F31FCE1F305853005F3C20 /* ViewController.m in Sources */,
 				27F31FCB1F305853005F3C20 /* AppDelegate.m in Sources */,
 				27F31FC81F305853005F3C20 /* main.m in Sources */,
@@ -496,6 +506,7 @@
 				27F31FF21F305854005F3C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27F31FF31F305854005F3C20 /* Build configuration list for PBXNativeTarget "GitHubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				27F31FF51F305854005F3C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27F31FF61F305854005F3C20 /* Build configuration list for PBXNativeTarget "GitHubTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				27F31FF81F305854005F3C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
