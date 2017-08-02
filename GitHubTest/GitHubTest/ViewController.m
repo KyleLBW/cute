@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecViewController.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 200, 80, 35);
+    button.backgroundColor = [UIColor redColor];
+    [button setTitle:@"点击跳转" forState:UIControlStateNormal];
+    [button setTintColor:[UIColor cyanColor]];
+    [button addTarget:self action:@selector(tapSelf) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)tapSelf {
+    SecViewController *vc = [[SecViewController alloc] initWithNibName:@"SecViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
