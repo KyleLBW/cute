@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2717B3811F31D18E008CDB61 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2717B37F1F31D18E008CDB61 /* BaseViewController.m */; };
-		2717B3821F31D18F008CDB61 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2717B3801F31D18E008CDB61 /* BaseViewController.xib */; };
-		2717B3861F31D20E008CDB61 /* ChindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2717B3841F31D20E008CDB61 /* ChindViewController.m */; };
-		2717B3871F31D20E008CDB61 /* ChindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2717B3851F31D20E008CDB61 /* ChindViewController.xib */; };
-		2717B38B1F31D4BC008CDB61 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2717B3891F31D4BC008CDB61 /* TableViewCell.m */; };
-		2717B38C1F31D4BC008CDB61 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2717B38A1F31D4BC008CDB61 /* TableViewCell.xib */; };
 		2717B3901F31DCFD008CDB61 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 2717B38D1F31DCFD008CDB61 /* 15.png */; };
 		2717B3911F31DCFD008CDB61 /* 15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2717B38E1F31DCFD008CDB61 /* 15@2x.png */; };
 		2717B3921F31DCFD008CDB61 /* 15@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2717B38F1F31DCFD008CDB61 /* 15@3x.png */; };
+		2717B3961F31E091008CDB61 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2717B3931F31E091008CDB61 /* 7.png */; };
+		2717B3971F31E091008CDB61 /* 7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2717B3941F31E091008CDB61 /* 7@2x.png */; };
+		2717B3981F31E091008CDB61 /* 7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2717B3951F31E091008CDB61 /* 7@3x.png */; };
 		27F31FC81F305853005F3C20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F31FC71F305853005F3C20 /* main.m */; };
 		27F31FCB1F305853005F3C20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F31FCA1F305853005F3C20 /* AppDelegate.m */; };
 		27F31FCE1F305853005F3C20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F31FCD1F305853005F3C20 /* ViewController.m */; };
@@ -46,18 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2717B37E1F31D18E008CDB61 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		2717B37F1F31D18E008CDB61 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		2717B3801F31D18E008CDB61 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
-		2717B3831F31D20E008CDB61 /* ChindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChindViewController.h; sourceTree = "<group>"; };
-		2717B3841F31D20E008CDB61 /* ChindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChindViewController.m; sourceTree = "<group>"; };
-		2717B3851F31D20E008CDB61 /* ChindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChindViewController.xib; sourceTree = "<group>"; };
-		2717B3881F31D4BC008CDB61 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		2717B3891F31D4BC008CDB61 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		2717B38A1F31D4BC008CDB61 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		2717B38D1F31DCFD008CDB61 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
 		2717B38E1F31DCFD008CDB61 /* 15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15@2x.png"; sourceTree = "<group>"; };
 		2717B38F1F31DCFD008CDB61 /* 15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15@3x.png"; sourceTree = "<group>"; };
+		2717B3931F31E091008CDB61 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		2717B3941F31E091008CDB61 /* 7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@2x.png"; sourceTree = "<group>"; };
+		2717B3951F31E091008CDB61 /* 7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@3x.png"; sourceTree = "<group>"; };
 		27F31FC31F305853005F3C20 /* GitHubTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F31FC71F305853005F3C20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27F31FC91F305853005F3C20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +118,9 @@
 		27F31FC51F305853005F3C20 /* GitHubTest */ = {
 			isa = PBXGroup;
 			children = (
+				2717B3931F31E091008CDB61 /* 7.png */,
+				2717B3941F31E091008CDB61 /* 7@2x.png */,
+				2717B3951F31E091008CDB61 /* 7@3x.png */,
 				2717B38D1F31DCFD008CDB61 /* 15.png */,
 				2717B38E1F31DCFD008CDB61 /* 15@2x.png */,
 				2717B38F1F31DCFD008CDB61 /* 15@3x.png */,
@@ -134,18 +128,9 @@
 				27F31FCA1F305853005F3C20 /* AppDelegate.m */,
 				27F31FCC1F305853005F3C20 /* ViewController.h */,
 				27F31FCD1F305853005F3C20 /* ViewController.m */,
-				2717B37E1F31D18E008CDB61 /* BaseViewController.h */,
-				2717B37F1F31D18E008CDB61 /* BaseViewController.m */,
-				2717B3801F31D18E008CDB61 /* BaseViewController.xib */,
-				2717B3831F31D20E008CDB61 /* ChindViewController.h */,
-				2717B3841F31D20E008CDB61 /* ChindViewController.m */,
-				2717B3851F31D20E008CDB61 /* ChindViewController.xib */,
 				27F31FF91F30613B005F3C20 /* SecViewController.h */,
 				27F31FFA1F30613B005F3C20 /* SecViewController.m */,
 				27F31FFB1F30613B005F3C20 /* SecViewController.xib */,
-				2717B3881F31D4BC008CDB61 /* TableViewCell.h */,
-				2717B3891F31D4BC008CDB61 /* TableViewCell.m */,
-				2717B38A1F31D4BC008CDB61 /* TableViewCell.xib */,
 				27F31FCF1F305853005F3C20 /* Main.storyboard */,
 				27F31FD21F305853005F3C20 /* Assets.xcassets */,
 				27F31FD41F305853005F3C20 /* LaunchScreen.storyboard */,
@@ -284,12 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2717B3971F31E091008CDB61 /* 7@2x.png in Resources */,
+				2717B3961F31E091008CDB61 /* 7.png in Resources */,
 				27F31FFD1F30613B005F3C20 /* SecViewController.xib in Resources */,
 				2717B3921F31DCFD008CDB61 /* 15@3x.png in Resources */,
-				2717B3821F31D18F008CDB61 /* BaseViewController.xib in Resources */,
-				2717B38C1F31D4BC008CDB61 /* TableViewCell.xib in Resources */,
+				2717B3981F31E091008CDB61 /* 7@3x.png in Resources */,
 				27F31FD61F305853005F3C20 /* LaunchScreen.storyboard in Resources */,
-				2717B3871F31D20E008CDB61 /* ChindViewController.xib in Resources */,
 				27F31FD31F305853005F3C20 /* Assets.xcassets in Resources */,
 				2717B3911F31DCFD008CDB61 /* 15@2x.png in Resources */,
 				27F31FD11F305853005F3C20 /* Main.storyboard in Resources */,
@@ -318,11 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2717B38B1F31D4BC008CDB61 /* TableViewCell.m in Sources */,
 				27F31FFC1F30613B005F3C20 /* SecViewController.m in Sources */,
-				2717B3811F31D18E008CDB61 /* BaseViewController.m in Sources */,
 				27F31FCE1F305853005F3C20 /* ViewController.m in Sources */,
-				2717B3861F31D20E008CDB61 /* ChindViewController.m in Sources */,
 				27F31FCB1F305853005F3C20 /* AppDelegate.m in Sources */,
 				27F31FC81F305853005F3C20 /* main.m in Sources */,
 			);

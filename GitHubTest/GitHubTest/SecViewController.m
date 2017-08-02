@@ -13,7 +13,6 @@
 
 
 @interface SecViewController ()<UITableViewDelegate,UITableViewDataSource>
-//@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataSource;
 @end
@@ -47,10 +46,10 @@
     self.tableView.tableFooterView = [UIView new];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 476 / 2.0)];
-    imageView.contentMode = UIViewContentModeScaleAspectFill;
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.clipsToBounds = YES;
     imageView.image = [UIImage imageNamed:@"15"];
-    imageView.backgroundColor = KRGB(234, 234, 234);
+    imageView.backgroundColor = [UIColor whiteColor];
     self.tableView.tableHeaderView = imageView;
     [self.view addSubview:self.tableView];
     
@@ -59,8 +58,9 @@
     [self.view addSubview:navView];
     
     UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    backBtn.frame = CGRectMake(15, 20, 40, 40);
-    backBtn.backgroundColor = [UIColor redColor];
+    [backBtn setImage:[UIImage imageNamed:@"7"] forState:UIControlStateNormal];
+    backBtn.frame = CGRectMake(0, 30, 40, 25);
+    backBtn.backgroundColor = [UIColor clearColor];
     [backBtn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
     [navView addSubview:backBtn];
 }
@@ -92,8 +92,13 @@
         UIView *view = [UIView new];
         view.backgroundColor = KRGB(234, 234, 234);
         return view;
+    }else if (section==0){
+        UIView *view = [UIView new];
+        view.backgroundColor = [UIColor whiteColor];
+        return view;
+    }else{
+        return nil;
     }
-    return nil;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
